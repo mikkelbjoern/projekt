@@ -5,22 +5,17 @@
   <script language="javascript" src="libraries/p5.sound.js"></script>
   <!-- Reference to js file (drawing) -->
   <script language="javascript" type="text/javascript" src="scripts.js"></script>
-
+  <link rel="stylesheet" type="text/css" href="styles.css">
 
   <!-- jQuery library -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
   <title>Sebs og Mikkels clicker game</title>
 
-  <style> body {
-    background-color: antiqueWhite;
-
-    } </style>
 </head>
 
 <body>
-<p id="moneyField">Copper coins: 0</p>
-
+<p id="moneyField" style="border-style: solid">Copper coins: 0</p> 
 <audio controls autoplay="true" loop="true" Hidden="true">
   <source src="oldGold.mp3" type="audio/mpeg">
 </audio>
@@ -34,10 +29,10 @@
 <h2>Shop</h2>
 <ul>
   <li>
-    <button>Buy worker</button>
+    <button>Buy</button> <buyDesc>A worker without tools</buyDesc>
   </li>
   <li>
-    <button>Buy worker with tools</button>
+    <button>Buy</button> <buyDesc>A worker with tools</buyDesc>
   </li>
 </ul>
 
