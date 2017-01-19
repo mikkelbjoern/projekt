@@ -6,3 +6,9 @@ body {
 buyDesc {
   font-style: italic;
 }
+
+button {
+  border-radius: 50px;
+  background: lightblue;
+  padding: 5px;
+}
